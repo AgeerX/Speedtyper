@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Speed.css">
+</head>
+
+<body>
+    <div class="parent">
+        <div class="logo">
+            <img src="Rick1.jpg">
+        </div>
+        <div class="speed_div">
+            <div class="parent">
+                <h2 id="count"> How fast can you type? </h2>
+                <h2 id="last_key"> Last typed </h2>
+            </div>
+            <h2 id="Text">We're no strangers to love You know the rules and so do I.<!--A full commitment's what I'm thinking of. You wouldn't get this from any other guy. I just wanna tell you how I'm feeling. Gotta make you understand. Never gonna give you up. Never gonna let you down. Never gonna run around and desert you. Never gonna make you cry. Never gonna say goodbye. Never gonna tell a lie and hurt you.-->
+            </h2>
+            <div>
+                <textarea id="speed_typing" onkeypress="CountKeys(event)">Hello, This is a speed typing tool</textarea>
+            </div>
+            <div class="clearButton">
+                <input id="sbutton" type="button" value="Start" onclick="ClearText()"></input>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+<script type="text/javascript" src="Speed.js">
+</script>
+
+</html>
